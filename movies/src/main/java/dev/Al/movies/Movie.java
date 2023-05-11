@@ -19,9 +19,9 @@ public class Movie {
     private ObjectId id;
     private String imdbId;
     private String title;
-    private String relasedate;
+    private String relaseDate;
     private String poster;
-    private List<String> geners;
+    private List<String> genres;
     private List<String> backdrops;
     @DocumentReference
     private List<Review> reviewIds;
